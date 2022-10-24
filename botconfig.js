@@ -1,6 +1,6 @@
 module.exports = {
   Admins: ["1001781433385365526"], // ID của người qản lý
-  ExpressServer: true, // If you wanted to make the website run or not
+  ExpressServer: false, // If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", // Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/63A5DSP5ZZ", // Support Server Link
@@ -17,7 +17,7 @@ module.exports = {
     "https://i.imgur.com/7oKYTa0.png", // link icon của bot
   EmbedColor: "#36393F", // Color of most embeds | Custom Hex value are supported. I.e: "#36393F"
   Permissions: 2205281600, // Bot Inviting Permissions
-  Website: process.env.Website || "https://example.com", // Website where it is hosted at includes http or https || Use "0.0.0.0" if you using Heroku || Do not include /api/callback. Just the website url. I.e. "https://foo.bar"
+  Website: process.env.Website || "0.0.0.0", // Website where it is hosted at includes http or https || Use "0.0.0.0" if you using Heroku || Do not include /api/callback. Just the website url. I.e. "https://foo.bar"
   // If you get invalid oauth, make sure on the discord developer page you set the oauth url to something like: https://example.com/api/callback.
 
   Presence: {
